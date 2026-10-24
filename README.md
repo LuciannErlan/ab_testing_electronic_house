@@ -48,18 +48,29 @@ A análise foi desenvolvida no notebook [`ab_testing_electronic_house.ipynb`](./
 
 ```text
 ab_testing_electronic_house/
+├── .streamlit/config.toml             # Configuração de tema visual do dashboard
 ├── .gitignore                         # Arquivos temporários e caches ignorados pelo Git
 ├── ab_testing.csv                     # Base de dados do experimento A/B
 ├── ab_testing_electronic_house.ipynb  # Notebook com EDA, testes estatísticos e conclusões
+├── app.py                             # Dashboard interativo em Streamlit
+├── requirements.txt                   # Dependências para deploy no Streamlit Community Cloud
 └── README.md                          # Documentação executiva do projeto
 ```
 
 ---
 
 ## 6. Como Executar
+
+### Notebook de Análise
 1. Abra o arquivo `ab_testing_electronic_house.ipynb` no VS Code ou Jupyter Lab.
 2. Selecione um kernel Python 3 com as bibliotecas `pandas`, `numpy`, `scipy`, `matplotlib` e `seaborn`.
 3. Clique em **Run All (Executar Tudo)** para gerar todas as tabelas estatísticas, gráficos e diagnósticos.
+
+### Dashboard Interativo (Streamlit)
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
