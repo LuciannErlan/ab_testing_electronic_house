@@ -1,5 +1,9 @@
 # Teste A/B — Electronic House: Preenchimento Manual vs. Automático no Checkout
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://luciannerlan-ab-testing-electronic-house-app-aflynv.streamlit.app/)
+
+> **Dashboard Interativo Online:** [Acesse aqui no Streamlit Cloud](https://luciannerlan-ab-testing-electronic-house-app-aflynv.streamlit.app/)
+
 ## 1. A Empresa Electronic House (Problema de Negócio)
 A **Electronic House** é um comércio eletrônico (*e-commerce*) de produtos de informática para casas e escritórios. Os clientes podem adquirir mouses, monitores, teclados, computadores, laptops, cabos HDMI, fones de ouvido, webcams, entre outros itens, recebendo os produtos no conforto de suas residências.
 
@@ -67,6 +71,8 @@ ab_testing_electronic_house/
 3. Clique em **Run All (Executar Tudo)** para gerar todas as tabelas estatísticas, gráficos e diagnósticos.
 
 ### Dashboard Interativo (Streamlit)
+- **Acesso Online:** https://luciannerlan-ab-testing-electronic-house-app-aflynv.streamlit.app/
+- **Execução Local:**
 ```bash
 pip install -r requirements.txt
 streamlit run app.py

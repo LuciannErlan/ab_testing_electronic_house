@@ -553,3 +553,4 @@ with tab4:
 
     st.subheader("Amostra dos Registros Filtrados")
     st.dataframe(df_f.head(200), use_container_width=True, hide_index=True)
+
