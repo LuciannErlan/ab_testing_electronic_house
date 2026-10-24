@@ -57,7 +57,7 @@ ab_testing_electronic_house/
 ---
 
 ## 6. Como Executar
-1. Abra o arquivo `ab_testing_electronic_house.ipynb` no VS Code / Antigravity ou Jupyter Lab.
+1. Abra o arquivo `ab_testing_electronic_house.ipynb` no VS Code ou Jupyter Lab.
 2. Selecione um kernel Python 3 com as bibliotecas `pandas`, `numpy`, `scipy`, `matplotlib` e `seaborn`.
 3. Clique em **Run All (Executar Tudo)** para gerar todas as tabelas estatísticas, gráficos e diagnósticos.
 
